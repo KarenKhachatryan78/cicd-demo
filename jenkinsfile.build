@@ -1,5 +1,9 @@
 pipeline {
     agent any
+environment {
+    EC2_HOST = '54.82.92.133'
+    EC2_USER = 'ec2-user'
+    DOCKER_IMAGE = "karenkhachatryan78/cicddemo:latest"
     stages {
         stage('Docker Login') {
             steps {
