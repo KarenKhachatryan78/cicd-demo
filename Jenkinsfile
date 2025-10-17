@@ -4,7 +4,7 @@ pipeline {
   environment {
     EC2_HOST = '54.82.92.133'
     EC2_USER = 'ec2-user'
-    DOCKER_IMAGE = "gevorgyanhuddle/hello-nginx:latest"
+    DOCKER_IMAGE = "karenkhachatryan78/cicddemo:latest"
   }
 
   stages {
